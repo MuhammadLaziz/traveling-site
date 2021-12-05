@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveling Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+
+    <section class="header">
+      <div class="container">
+        <nav class="navbar">
+          <h1 class="site-title">
+            <a href="" class="title-link">Travel</a>
+          </h1>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="../flights/index.html" class="nav-link">Flights</a>
+            </li>
+            <li class="nav-item">
+              <a href="../hotels/index.html" class="nav-link">Hotel</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Car</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-part" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <button class="bar-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+
+        <div class="menu">
+          <div class="menu-control">
+            <h1 class="menu-title">Travel</h1>
+            <button class="menu-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="../index.html" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="../flights/index.html" class="menu-link">Flights</a>
+            </li>
+            <li class="menu-item">
+              <a href="../hotels/index.html" class="menu-link">Hotel</a>
+            </li>
+            <li class="menu-item">
+              <a href="../car/index.html" class="menu-link">Car</a>
+            </li>
+            <li class="menu-item">
+              <a href="#contact" class="menu-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="home-page">
+          <div class="left-side-home">
+            <form class="home-form">
+              <div class="inputs">
+                <div class="from">
+                  <label>From:</label>
+                  <input type="text" placeholder="Los Angeles, USA" />
+                </div>
+                <div class="to">
+                  <label>From:</label>
+                  <input type="text" placeholder="Tokyo, Japan" />
+                </div>
+                <div class="chek-in">
+                  <label>Check In:</label>
+                  <input type="date" />
+                </div>
+                <div class="chek-out">
+                  <label>Check Out:</label>
+                  <input type="date" />
+                </div>
+              </div>
+              <div class="select-class">
+                <label>Class:</label>
+                <select class="select">
+                  <option value="economy">Economy</option>
+                  <option value="standart">Standart</option>
+                  <option value="business">Business</option>
+                </select>
+              </div>
+              <div class="family-inputs">
+                <div class="adults">
+                  <label>Adult:</label>
+                  <select class="adult-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="children">
+                  <label>Children:</label>
+                  <select class="children-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+              </div>
+              <button class="form-btn">Book</button>
+            </form>
+          </div>
+          <div class="right-side-home">
+            <p class="right-home-text">Lorem ipsum dolor sit amet</p>
+            <h1 class="right-home-title">Exclusive Limited Time Offer</h1>
+            <h3 class="right-home-nim-info">
+              Fly to Hong Kong via Los Angeles, USA
+            </h3>
+            <p class="right-home-price">$599</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cars" id="cars">
+      <div class="container">
+        <div class="car-top">
+          <h1 class="car-top-title">Car Rent In U.S.</h1>
+          <p class="car-top-info">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+        <ul class="car-list">
+          <li class="car-item">
+            <div class="car-item-left">
+              <h3 class="car-item-type">Start</h3>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$100</p><sup>/ day</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$200</p><sup>/ week</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$250</p><sup>/ mos</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$350</p><sup>/ Total (Total incl.)</sup>
+              </div>
+            </div>
+            <div class="car-item-right">
+              <img src="./car-img/mers.jpg" alt="Car Image">
+            </div>
+          </li>
+          <li class="car-item">
+            <div class="car-item-left">
+              <h3 class="car-item-type">Economy</h3>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$100</p><sup>/ day</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$200</p><sup>/ week</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$250</p><sup>/ mos</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$350</p><sup>/ Total (Total incl.)</sup>
+              </div>
+            </div>
+            <div class="car-item-right">
+              <img src="./car-img/old-car.jpg" alt="Car Image">
+            </div>
+          </li>
+          <li class="car-item">
+            <div class="car-item-left">
+              <h3 class="car-item-type">Comfort</h3>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$100</p><sup>/ day</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$200</p><sup>/ week</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$250</p><sup>/ mos</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$350</p><sup>/ Total (Total incl.)</sup>
+              </div>
+            </div>
+            <div class="car-item-right">
+              <img src="./car-img/modern.jpg" alt="Car Image">
+            </div>
+          </li>
+          <li class="car-item">
+            <div class="car-item-left">
+              <h3 class="car-item-type">Elit</h3>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$100</p><sup>/ day</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$200</p><sup>/ week</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$250</p><sup>/ mos</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$350</p><sup>/ Total (Total incl.)</sup>
+              </div>
+            </div>
+            <div class="car-item-right">
+              <img src="./car-img/bmw.jpg" alt="Car Image">
+            </div>
+          </li>
+          <li class="car-item">
+            <div class="car-item-left">
+              <h3 class="car-item-type">Business</h3>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$100</p><sup>/ day</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$200</p><sup>/ week</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$250</p><sup>/ mos</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$350</p><sup>/ Total (Total incl.)</sup>
+              </div>
+            </div>
+            <div class="car-item-right">
+              <img src="./car-img/expensive.jpg" alt="Car Image">
+            </div>
+          </li>
+          <li class="car-item">
+            <div class="car-item-left">
+              <h3 class="car-item-type">Luxury</h3>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$100</p><sup>/ day</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$200</p><sup>/ week</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$250</p><sup>/ mos</sup>
+              </div>
+              <div class="car-item-price-box">
+                <p class="car-item-price">$350</p><sup>/ Total (Total incl.)</sup>
+              </div>
+            </div>
+            <div class="car-item-right">
+              <img src="./car-img/luxury.jpg" alt="Car Image">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="comments">
+      <div class="container">
+        <h1 class="comment-title">Happy Clients</h1>
+
+        <ul class="comment-list">
+          <li class="comment-item">
+            <div class="comment-item-box">
+              <div class="comment-item-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <p class="comment-item-text">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+            </div>
+            <span class="comment-item-owner">John Doe, CEO domain.com <br> Creative Director</span>
+          </li>
+          <li class="comment-item">
+            <div class="comment-item-box">
+              <div class="comment-item-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <p class="comment-item-text">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+            </div>
+            <span class="comment-item-owner">John Doe, CEO domain.com <br> Creative Director</span>
+          </li>
+          <li class="comment-item">
+            <div class="comment-item-box">
+              <div class="comment-item-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <p class="comment-item-text">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”</p>
+            </div>
+            <span class="comment-item-owner">John Doe, CEO domain.com <br> Creative Director</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer id="contact-part" class="contact">
+      <div class="container">
+        <h1 class="contact-title">
+          <a href="../index.html" class="contact-title-link">Travel</a>
+        </h1>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a href="#" class="contact-link">About Travel</a>
+            <p class="sub-contact-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </li>
+          <li class="contact-item">
+            <a href="../flights/index.html" class="contact-link">Top Flights Routes</a>
+            <ul class="sub-contact-list">
+              <li class="sub-contact-item">
+                <a href="../flights/index.html" class="sub-contact-link">Manila flights</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="../flights/index.html" class="sub-contact-link">Dubai flight</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="../flights/index.html" class="sub-contact-link">Bangkok flight</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="../flights/index.html" class="sub-contact-link">Tokyo flight</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="../flights/index.html" class="sub-contact-link">New York flight</a>
+              </li>
+            </ul>
+          </li>
+          <li class="contact-item top-hotels">
+            <a href="../hotels/index.html" class="contact-link">Top Hotels</a>
+            <ul class="sub-contact-list">
+              <li class="sub-contact-item">
+                <a href="../hotels/index.html" class="sub-contact-link">Boracay Hotel</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="../hotels/index.html" class="sub-contact-link">Dubai Hotel</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="../hotels/index.html" class="sub-contact-link">Singapore Hotel</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="../hotels/index.html" class="sub-contact-link">Manila Hotel</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
+
+<!--hot-tours
+plans
+destinations-->
+
+

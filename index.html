@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveling Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body id="home">
+    <section class="header">
+      <div class="container">
+        <nav class="navbar">
+          <h1 class="site-title">
+            <a href="" class="title-link">Travel</a>
+          </h1>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#desti" class="nav-link">Vocations</a>
+            </li>
+            <li class="nav-item">
+              <a href="./flights/index.html" class="nav-link">Flights</a>
+            </li>
+            <li class="nav-item">
+              <a href="./hotels/index.html" class="nav-link">Hotel</a>
+            </li>
+            <li class="nav-item">
+              <a href="./car/index.html" class="nav-link">Car</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <button class="bar-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+
+        <div class="menu">
+          <div class="menu-control">
+            <h1 class="menu-title">Travel</h1>
+            <button class="menu-btn">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="" class="menu-link">Home</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Vocarions</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Flights</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Hotel</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Car</a>
+            </li>
+            <li class="menu-item">
+              <a href="" class="menu-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="home-page">
+          <div class="left-side-home">
+            <form class="home-form">
+              <div class="inputs">
+                <div class="from">
+                  <label>From:</label>
+                  <input type="text" placeholder="Los Angeles, USA" />
+                </div>
+                <div class="to">
+                  <label>From:</label>
+                  <input type="text" placeholder="Tokyo, Japan" />
+                </div>
+                <div class="chek-in">
+                  <label>Check In:</label>
+                  <input type="date" />
+                </div>
+                <div class="chek-out">
+                  <label>Check Out:</label>
+                  <input type="date" />
+                </div>
+              </div>
+              <div class="select-class">
+                <label>Class:</label>
+                <select class="select">
+                  <option value="economy">Economy</option>
+                  <option value="standart">Standart</option>
+                  <option value="business">Business</option>
+                </select>
+              </div>
+              <div class="family-inputs">
+                <div class="adults">
+                  <label>Adult:</label>
+                  <select class="adult-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="children">
+                  <label>Children:</label>
+                  <select class="children-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+              </div>
+              <button class="form-btn">Book</button>
+            </form>
+          </div>
+          <div class="right-side-home">
+            <p class="right-home-text">Lorem ipsum dolor sit amet</p>
+            <h1 class="right-home-title">Exclusive Limited Time Offer</h1>
+            <h3 class="right-home-nim-info">
+              Fly to Hong Kong via Los Angeles, USA
+            </h3>
+            <p class="right-home-price">$599</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="hot-tours" id="tours">
+      <div class="container">
+        <div class="tour-top">
+          <h1 class="tour-top-title">Hot Tours</h1>
+          <p class="tour-top-text">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+          <hr />
+        </div>
+        <div class="tour-bottom">
+          <ul class="tour-bottom-list">
+            <li class="tour-bottom-item-1">
+              <h3 class="tour-bottom-item-place">New York</h3>
+              <p class="tour-bottom-item-info">3 nights + Flight 5*Hotel</p>
+              <span class="tour-bottom-item-price">$1,000</span>
+              <a href="#" class="tour-bottom-item-btn">Book Now</a>
+            </li>
+            <li class="tour-bottom-item-2">
+              <h3 class="tour-bottom-item-place">Philippines</h3>
+              <p class="tour-bottom-item-info">4 nights + Flight 5*Hotel</p>
+              <span class="tour-bottom-item-price">$1,000</span>
+              <a href="#" class="tour-bottom-item-btn">Book Now</a>
+            </li>
+            <li class="tour-bottom-item-3">
+              <h3 class="tour-bottom-item-place">Hongkong</h3>
+              <p class="tour-bottom-item-info">2 nights + Flight 4*Hotel</p>
+              <span class="tour-bottom-item-price">$1,000</span>
+              <a href="#" class="tour-bottom-item-btn">Book Now</a>
+            </li>
+          </ul>
+        </div>
+        <button class="tour-btn">See All Offers ></button>
+      </div>
+    </div>
+    <section class="plans">
+      <div class="container">
+        <ul class="plans-list">
+          <li class="plans-item">
+            <span class="plan-icon">
+              <i class="fas fa-parachute-box"></i>
+            </span>
+            <div class="plans-wrapper">
+              <h3 class="plan-wrap-title">Family Travel</h3>
+              <p class="plan-wrap-text">
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+              <a href="#" class="plan-wrap-link">Learn More</a>
+            </div>
+          </li>
+          <li class="plans-item">
+            <span class="plan-icon">
+              <i class="fas fa-save"></i>
+            </span>
+            <div class="plans-wrapper">
+              <h3 class="plan-wrap-title">Travel Plans</h3>
+              <p class="plan-wrap-text">
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+              <a href="#" class="plan-wrap-link">Learn More</a>
+            </div>
+          </li>
+          <li class="plans-item">
+            <span class="plan-icon">
+              <i class="fas fa-wallet"></i>
+            </span>
+            <div class="plans-wrapper">
+              <h3 class="plan-wrap-title">Honeymoon</h3>
+              <p class="plan-wrap-text">
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+              <a href="#" class="plan-wrap-link">Learn More</a>
+            </div>
+          </li>
+          <li class="plans-item">
+            <span class="plan-icon">
+              <i class="fas fa-trophy"></i>
+            </span>
+            <div class="plans-wrapper">
+              <h3 class="plan-wrap-title">Business Travel</h3>
+              <p class="plan-wrap-text">
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+              <a href="#" class="plan-wrap-link">Learn More</a>
+            </div>
+          </li>
+          <li class="plans-item">
+            <span class="plan-icon">
+              <i class="fas fa-react"></i>
+            </span>
+            <div class="plans-wrapper">
+              <h3 class="plan-wrap-title">Solo Travel</h3>
+              <p class="plan-wrap-text">
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+              <a href="#" class="plan-wrap-link">Learn More</a>
+            </div>
+          </li>
+          <li class="plans-item">
+            <span class="plan-icon">
+              <i class="fas fa-comments"></i>
+            </span>
+            <div class="plans-wrapper">
+              <h3 class="plan-wrap-title">Explorer</h3>
+              <p class="plan-wrap-text">
+                Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia
+                reprehenderit.
+              </p>
+              <a href="#" class="plan-wrap-link">Learn More</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <main class="destinations" id="desti">
+      <div class="container">
+        <div class="first-part-des">
+          <img
+            src="./assets/destination/los-angeles.jpg"
+            class="first-img"
+            alt="Destinations Image"
+          />
+          <img
+            src="./assets/destination/honkong.jpg"
+            class="second-img"
+            alt="Destinations Image"
+          />
+          <img
+            src="./assets/destination/itely.jpg"
+            class="third-img"
+            alt="Destinations Image"
+          />
+        </div>
+        <div class="second-part-des">
+          <img
+            src="./assets/destination/japan.jpg"
+            class="fourth-img"
+            alt="Destinations Image"
+          />
+          <div class="destination-all-link">
+            <a href="./flights/index.html">See More</a>
+          </div>
+          <img
+            src="./assets/destination/paris.jpg"
+            class="six-img"
+            alt="Destinations Image"
+          />
+        </div>
+        <div class="third-part-des">
+          <img
+            src="./assets/destination/singapore.jpg"
+            alt="Destinations Image"
+          />
+          <img
+            src="./assets/destination/madagaskar.jpg"
+            alt="Destinations Image"
+          />
+          <img src="./assets/destination/egypt.jpg" alt="Destinations Image" />
+        </div>
+      </div>
+    </main>
+
+    <div class="comments">
+      <div class="container">
+        <h1 class="comment-title">Happy Clients</h1>
+
+        <ul class="comment-list">
+          <li class="comment-item">
+            <div class="comment-item-box">
+              <div class="comment-item-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <p class="comment-item-text">
+                “Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.”
+              </p>
+            </div>
+            <span class="comment-item-owner"
+              >John Doe, CEO domain.com <br />
+              Creative Director</span
+            >
+          </li>
+          <li class="comment-item">
+            <div class="comment-item-box">
+              <div class="comment-item-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <p class="comment-item-text">
+                “Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.”
+              </p>
+            </div>
+            <span class="comment-item-owner"
+              >John Doe, CEO domain.com <br />
+              Creative Director</span
+            >
+          </li>
+          <li class="comment-item">
+            <div class="comment-item-box">
+              <div class="comment-item-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <p class="comment-item-text">
+                “Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.”
+              </p>
+            </div>
+            <span class="comment-item-owner"
+              >John Doe, CEO domain.com <br />
+              Creative Director</span
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <footer class="contact" id="contact">
+      <div class="container">
+        <h1 class="contact-title">
+          <a href="#" class="contact-title-link">Travel</a>
+        </h1>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a href="#" class="contact-link">About Travel</a>
+            <p class="sub-contact-text">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </li>
+          <li class="contact-item">
+            <a href="./flights/index.html" class="contact-link">Top Flights Routes</a>
+            <ul class="sub-contact-list">
+              <li class="sub-contact-item">
+                <a href="./flights/index.html" class="sub-contact-link">Manila flights</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="./flights/index.html" class="sub-contact-link">Dubai flight</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="./flights/index.html" class="sub-contact-link">Bangkok flight</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="./flights/index.html" class="sub-contact-link">Tokyo flight</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="./flights/index.html" class="sub-contact-link">New York flight</a>
+              </li>
+            </ul>
+          </li>
+          <li class="contact-item top-hotels">
+            <a href="./hotels/index.html" class="contact-link">Top Hotels</a>
+            <ul class="sub-contact-list">
+              <li class="sub-contact-item">
+                <a href="./hotels/index.html" class="sub-contact-link">Boracay Hotel</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="./hotels/index.html" class="sub-contact-link">Dubai Hotel</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="./hotels/index.html" class="sub-contact-link">Singapore Hotel</a>
+              </li>
+              <li class="sub-contact-item">
+                <a href="./hotels/index.html" class="sub-contact-link">Manila Hotel</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

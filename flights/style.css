@@ -1,0 +1,874 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  scroll-behavior: smooth;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  font-weight: bold;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  height: 100vh;
+  background-image: url("./flight-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 55px;
+}
+
+.navbar h1 a {
+  font-size: 26px;
+}
+
+.navbar .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .nav-list .nav-item {
+  margin: 20px;
+}
+
+.navbar .nav-list .nav-item .nav-link {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7e7c7c;
+}
+
+.navbar .nav-list .nav-item .nav-link:hover {
+  color: #f78536;
+}
+
+.navbar .title-link {
+  color: #f78536;
+}
+
+.home-page {
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.home-page .left-side-home {
+  width: 40%;
+}
+
+.home-page .left-side-home form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 10px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.home-page .left-side-home form .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.home-page .left-side-home form .inputs div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+}
+
+.home-page .left-side-home form .inputs div label {
+  font-weight: bold;
+  color: #7e7c7c;
+}
+
+.home-page .left-side-home form .inputs div input {
+  width: 150px;
+  color: #f78536;
+  padding: 5px;
+}
+
+.home-page .left-side-home form .select-class {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.home-page .left-side-home form .select-class label {
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.home-page .left-side-home form .select-class .select {
+  width: 77%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #f78536;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.home-page .left-side-home form .family-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-page .left-side-home form .family-inputs div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 15px;
+}
+
+.home-page .left-side-home form .family-inputs div .adult-select,
+.home-page .left-side-home form .family-inputs div .children-select {
+  width: 130px;
+  padding: 5px;
+  color: #f78536;
+  font-weight: bold;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.home-page .left-side-home form .form-btn {
+  width: 77%;
+  font-weight: bold;
+  color: #f78536;
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+}
+
+.home-page .right-side-home {
+  width: 40%;
+}
+
+.home-page .right-side-home .right-home-text {
+  margin-bottom: 55px;
+}
+
+.home-page .right-side-home h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.home-page .right-side-home h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.home-page .right-side-home .right-home-price {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f78536;
+}
+
+.flights {
+  margin: 80px auto;
+}
+
+.flights .container .flights-top-part {
+  width: 78%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.flights .container .flights-top-part h1 {
+  font-weight: normal;
+  margin: 25px;
+  font-size: 36px;
+}
+
+.flights .container .flights-top-part p {
+  color: #7e7c7c;
+  line-height: 35px;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.flights .container .flights-top-part .flights-top-line {
+  width: 300px;
+  height: 1px;
+  background-color: #000;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.flights .container .flights-bottom-part-title {
+  font-weight: normal;
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.flights .container .flights-bottom-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-left {
+  width: 50%;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-left .flights-bottom-box {
+  margin-bottom: 25px;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-left .flights-bottom-box .flights-bottom-box-title {
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-left .flights-bottom-box .flights-bottom-box-info {
+  color: #7e7c7c;
+  line-height: 25px;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right {
+  width: 50%;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right img {
+  width: 100%;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right table .table-data-name {
+  border: 1px solid #fff;
+  background-color: #f78536;
+  padding: 5px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right table .table-data-plane {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: green;
+  padding: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right table .table-data-plane h4 {
+  font-weight: normal;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right table .table-data-plane .table-data-date {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right table .table-data-plane .table-data-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.flights .container .flights-bottom-wrapper .flights-wrapper-right table .table-data-plane .table-data-price p {
+  margin-left: 15px;
+}
+
+.tours .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tours .container ul li {
+  width: 30%;
+  height: 300px;
+  border: 1px solid #000;
+  margin-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+}
+
+.tours .container ul li h3 {
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.tours .container ul li p {
+  margin-bottom: 20px;
+}
+
+.tours .container ul li span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tours .container ul li a {
+  margin: 15px 0;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 5px 15px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 15px;
+}
+
+.tours .container ul li a:hover {
+  background-color: #f78536;
+  border: 2px solid #f78536;
+}
+
+.tours .container ul .tours-item-1 {
+  background-image: url("./new-york.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tours .container ul .tours-item-2 {
+  background-image: url("./philipin.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tours .container ul .tours-item-3 {
+  background-image: url("./honkong.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tours .container ul .tours-item-4 {
+  background-image: url("./paris.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tours .container ul .tours-item-5 {
+  background-image: url("./dehli.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tours .container ul .tours-item-6 {
+  background-image: url("./dubai.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.comments {
+  background-color: #66d366;
+  color: #fff;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.comments h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.comments ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}
+
+.comments ul li {
+  width: 33%;
+}
+
+.comments ul li .comment-item-box {
+  width: 95%;
+  background-color: #fff;
+  color: #000;
+  padding: 40px 30px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.comments ul li .comment-item-box .comment-item-icon {
+  position: absolute;
+  bottom: 85%;
+  font-size: 35px;
+  background-color: #66d366;
+  padding: 15px;
+  border-radius: 100%;
+  color: #fff;
+}
+
+.contact {
+  background-color: #393e46;
+  padding: 55px 0;
+}
+
+.contact .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .container .contact-title-link {
+  color: #f78536;
+}
+
+.contact .container .contact-list {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 66%;
+}
+
+.contact .container .contact-list .contact-item {
+  width: 30%;
+  margin: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact .container .contact-list .contact-item a {
+  color: #fff;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .container .contact-list .contact-item a:hover {
+  color: #f78536;
+}
+
+.contact .container .contact-list .contact-item p {
+  color: #fff;
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+.contact .container .contact-list .contact-item .sub-contact-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 25px;
+}
+
+.contact .container .contact-list .contact-item .sub-contact-list .sub-contact-item {
+  margin-top: 15px;
+}
+
+.menu {
+  background: #fff;
+  width: 88%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  display: none;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.menu .menu-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu .menu-control h1 {
+  margin-right: 105px;
+  color: #f78536;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.menu .menu-control button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  border: 1px solid #f78536;
+  font-size: 22px;
+  background-color: #fff;
+  cursor: pointer;
+  color: #f78536;
+  font-weight: bold;
+}
+
+.menu ul li {
+  margin: 35px;
+}
+
+.menu ul li a {
+  color: #f78536;
+}
+
+.open-right {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+.bar-btn {
+  display: none;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 700px;
+  }
+  .home-page {
+    margin-top: 50px;
+  }
+  .home-page .left-side-home form {
+    padding: 10px;
+    width: 100%;
+  }
+  .home-page .left-side-home form .inputs div {
+    margin: 10px;
+  }
+  .home-page .left-side-home form .family-inputs div {
+    margin: 10px 5px;
+  }
+  .home-page .left-side-home form .family-inputs div .adult-select,
+  .home-page .left-side-home form .family-inputs div .children-select {
+    width: 100px;
+  }
+  .home-page .left-side-home form .form-btn {
+    margin-top: 15px;
+  }
+  .comments {
+    height: 800px;
+  }
+  .comments h1 {
+    margin: 50px 0 25px 0;
+  }
+  .comments ul {
+    margin-top: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .comments ul li {
+    width: 40%;
+    margin-top: 25px;
+  }
+  .contact .container {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .container .contact-list {
+    width: 100%;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 300px;
+  }
+  .header .navbar ul {
+    display: none;
+  }
+  .header .navbar .bar-btn {
+    display: block;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #f78536;
+    color: #f78536;
+    border-radius: 5px;
+  }
+  .header .menu {
+    display: block;
+  }
+  .header .home-page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .home-page .left-side-home {
+    display: none;
+    width: 90%;
+  }
+  .header .home-page .left-side-home .inputs .from,
+  .header .home-page .left-side-home .inputs .to,
+  .header .home-page .left-side-home .inputs .chek-in,
+  .header .home-page .left-side-home .inputs .chek-out {
+    width: 100px;
+  }
+  .header .home-page .right-side-home {
+    width: 90%;
+    color: #fff;
+  }
+  .comments {
+    height: 1400px;
+  }
+  .comments .container {
+    padding-bottom: 55px;
+  }
+  .comments .container h1 {
+    padding-top: 55px;
+  }
+  .comments .container ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .comments .container ul li {
+    width: 90%;
+    height: auto;
+    margin: 25px auto;
+  }
+  .comments .container ul li .comment-item-icon {
+    bottom: 88%;
+  }
+  .contact .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .container .contact-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact .container .contact-list .contact-item {
+    width: 90%;
+    margin: 65px 0;
+  }
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 700px;
+  }
+  .flights .container .flights-bottom-part-title {
+    text-align: center;
+  }
+  .flights .container .flights-bottom-wrapper .flights-wrapper-left {
+    width: 40%;
+  }
+  .tours .container ul li {
+    width: 40%;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 300px;
+  }
+  .flights .container .flights-top-part {
+    width: 100%;
+  }
+  .flights .container .flights-top-part h1 {
+    font-size: 30px;
+  }
+  .flights .container .flights-top-part p {
+    font-size: 20px;
+  }
+  .flights .container .flights-top-part .flights-top-line {
+    display: none;
+  }
+  .flights .container .flights-bottom-part-title {
+    font-size: 30px;
+  }
+  .flights .container .flights-bottom-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+  }
+  .flights .container .flights-bottom-wrapper .flights-wrapper-right {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .flights .container .flights-bottom-wrapper .flights-wrapper-right table .table-data-plane .table-data-price {
+    font-size: 15px;
+  }
+  .flights .container .flights-bottom-wrapper .flights-wrapper-right table .table-data-plane .table-data-price p {
+    margin-left: 5px;
+  }
+  .flights .container .flights-bottom-wrapper .flights-wrapper-left {
+    width: 100%;
+  }
+  .tours .container ul li {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

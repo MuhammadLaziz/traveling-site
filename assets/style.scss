@@ -31,7 +31,7 @@ input {
 }
 .header {
   height: 100vh;
-  background-image: url("./img/bg.jpg");
+  background-image: url("https://source.unsplash.com/1920x1280/?nature");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -58,7 +58,7 @@ input {
         transition: 0.3s;
         font-size: 18px;
         font-weight: bold;
-        color: #7e7c7c;
+        color: #f78536;
       }
       .nav-link:hover {
         color: #f78536;
@@ -255,19 +255,19 @@ input {
         }
       }
       .tour-bottom-item-1 {
-        background-image: url(./img/new-york.jpg);
+        background-image: url('https://source.unsplash.com/1920x1280/?newyork');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
       }
       .tour-bottom-item-2 {
-        background-image: url(./img/tokyo.jpg);
+        background-image: url(https://source.unsplash.com/1920x1280/?philipine);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
       }
       .tour-bottom-item-3 {
-        background-image: url(./img/honkong.jpg);
+        background-image: url(https://source.unsplash.com/1920x1280/?hongkong);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

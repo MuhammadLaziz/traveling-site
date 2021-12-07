@@ -466,6 +466,7 @@ input {
 .destinations .container .first-part-des img {
   width: 33.3%;
   height: 33.3%;
+  border: 1px solid #fff;
 }
 
 .destinations .container .second-part-des {
@@ -485,6 +486,7 @@ input {
 .destinations .container .second-part-des img {
   width: 33.4%;
   height: 100%;
+  border: 1px solid #fff;
 }
 
 .destinations .container .second-part-des .destination-all-link {
@@ -533,6 +535,7 @@ input {
 .destinations .container .third-part-des img {
   width: 33.3%;
   height: 100%;
+  border: 1px solid #fff;
 }
 
 .comments {

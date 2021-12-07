@@ -30,7 +30,7 @@ input {
 }
 .header {
   height: 100vh;
-  background-image: url("./flight-bg.jpg");
+  background-image: url("https://source.unsplash.com/1920x1280/?flight");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -56,7 +56,7 @@ input {
         transition: 0.3s;
         font-size: 18px;
         font-weight: bold;
-        color: #7e7c7c;
+        color: #f78536;
       }
       .nav-link:hover {
         color: #f78536;
@@ -310,36 +310,36 @@ input {
         }
       }
       .tours-item-1{
-        background-image: url('./new-york.jpg');
+        background-image: url('https://source.unsplash.com/1920x1280/?newyork');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }.tours-item-2{
-        background-image: url('./philipin.jpg');
+        background-image: url('https://source.unsplash.com/1920x1280/?phillipin');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
       .tours-item-3{
-        background-image: url('./honkong.jpg');
+        background-image: url('https://source.unsplash.com/1920x1280/?hongkong');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
       .tours-item-4{
-        background-image: url('./paris.jpg');
+        background-image: url('https://source.unsplash.com/1920x1280/?paris');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
       .tours-item-5{
-        background-image: url('./dehli.jpg');
+        background-image: url('https://source.unsplash.com/1920x1280/?dehli');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
       }
       .tours-item-6{
-        background-image: url('./dubai.jpg');
+        background-image: url('https://source.unsplash.com/1920x1280/?dubai');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

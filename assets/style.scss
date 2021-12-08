@@ -157,16 +157,30 @@ input {
 
   .right-side-home {
     width: 40%;
+    position: relative;
+    .extra-requirement{
+      position: absolute;
+      width: 900px;
+      top: 150%;
+      right: 50%;
+      color: #f78536;
+      font-weight: bold;
+      font-size: 28px;
+    }
     .right-home-text {
       margin-bottom: 55px;
+      color: #f78536;
+      font-size: 25px;
     }
     h1 {
+      color: #f78536;
       font-size: 36px;
       margin-bottom: 25px;
     }
     h3 {
-      font-size: 20px;
       margin-bottom: 25px;
+      font-size: 20px;
+      color: #f78536;
     }
     .right-home-price {
       font-size: 30px;

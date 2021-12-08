@@ -237,20 +237,35 @@ input {
 
 .home-page .right-side-home {
   width: 40%;
+  position: relative;
+}
+
+.home-page .right-side-home .extra-requirement {
+  position: absolute;
+  width: 900px;
+  top: 150%;
+  right: 50%;
+  color: #f78536;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .home-page .right-side-home .right-home-text {
   margin-bottom: 55px;
+  color: #f78536;
+  font-size: 25px;
 }
 
 .home-page .right-side-home h1 {
+  color: #f78536;
   font-size: 36px;
   margin-bottom: 25px;
 }
 
 .home-page .right-side-home h3 {
-  font-size: 20px;
   margin-bottom: 25px;
+  font-size: 20px;
+  color: #f78536;
 }
 
 .home-page .right-side-home .right-home-price {
